@@ -86,10 +86,9 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 350px) {
     section {
-        height: 50vh;
-        width: 70vw;
+        height: auto;
         font-weight: bold;
         font-size: small;
         font-family: 'Times New Roman', Times, serif;
@@ -98,10 +97,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         transition: -0.5s;
-        padding: 5px;
     }
     input {
-        width: 50%;
+        width: 40%;
         color: black;
     }
 }
