@@ -66,40 +66,20 @@ button:hover {
     background-color: #0400ff;
 }
 
-@media screen and (max-width: 900px) {
-    section {
-        height: 200vh;
-        width: 70vw;
-        font-weight: bold;
-        font-size: small;
-        font-family: 'Times New Roman', Times, serif;
-        border-radius: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: -0.5s;
-        padding: 5px;
-    }
-    input {
-        width: 40%;
-        color: black;
-    }
-}
-
 @media screen and (min-width: 350px) {
     section {
-        height: auto;
         font-weight: bold;
-        font-size: small;
+        font-size: large;
         font-family: 'Times New Roman', Times, serif;
         border-radius: 1rem;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: -0.5s;
+        padding: 10px;
     }
     input {
-        width: 40%;
+        width: 50%;
         color: black;
     }
 }
