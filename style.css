@@ -88,7 +88,7 @@ button:hover {
 
 @media screen and (max-width: 400px) {
     section {
-        height: 70vh;
+        height: 50vh;
         width: 70vw;
         font-weight: bold;
         font-size: small;
@@ -101,7 +101,7 @@ button:hover {
         padding: 5px;
     }
     input {
-        width: 40%;
+        width: 50%;
         color: black;
     }
 }
